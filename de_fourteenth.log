@@ -1,0 +1,713 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 37
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12892 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 24
+Reduced 13 texdatas to 11 (374 bytes to 325)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+  33 portalclusters
+ 101 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1087
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 33
+visdatasize:598  compressed from 528
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+141 faces
+68802 square feet [9907492.00 square inches]
+2 Displacements
+1445 Square Feet [208115.81 Square Inches]
+141 patches before subdivision
+1415 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 29276, max 120
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7381, 8312, 9247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1068, 1188, 1295)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             212/81920        1696/655360   ( 0.3%) 
+planes                 274/65536        5480/1310720  ( 0.4%) 
+vertexes               245/65536        2940/786432   ( 0.4%) 
+nodes                   98/65536        3136/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 11/4096          352/131072   ( 0.3%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        3808/0            3808/0        ( 0.0%) 
+faces                  141/65536        7896/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               85/65536        4760/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         141/0             564/0        ( 0.0%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              208/65536         416/131072   ( 0.3%) 
+leafbrushes             76/65536         152/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1028/512000       4112/2048000  ( 0.2%) 
+edges                  576/256000       2304/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           249/65536         498/131072   ( 0.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      141156/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         598/16777216 ( 0.0%) 
+entdata               [variable]        2771/393216   ( 0.7%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       434/65536       12152/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3514     ( 0.0%) 
+pakfile               [variable]      149537/0        ( 0.0%) 
+physics               [variable]       12892/4194304  ( 0.3%) 
+physics terrain       [variable]         542/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 386
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 38
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13092 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 24
+Reduced 13 texdatas to 11 (374 bytes to 325)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+  33 portalclusters
+ 101 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1087
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 33
+visdatasize:598  compressed from 528
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+141 faces
+68801 square feet [9907484.00 square inches]
+2 Displacements
+1445 Square Feet [208115.81 Square Inches]
+141 patches before subdivision
+1415 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 29268, max 120
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7381, 8312, 9247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1068, 1188, 1295)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             220/81920        1760/655360   ( 0.3%) 
+planes                 282/65536        5640/1310720  ( 0.4%) 
+vertexes               245/65536        2940/786432   ( 0.4%) 
+nodes                   98/65536        3136/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 11/4096          352/131072   ( 0.3%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        3808/0            3808/0        ( 0.0%) 
+faces                  141/65536        7896/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               85/65536        4760/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         141/0             564/0        ( 0.0%) 
+leaves                 103/65536        3296/2097152  ( 0.2%) 
+leaffaces              208/65536         416/131072   ( 0.3%) 
+leafbrushes             81/65536         162/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1028/512000       4112/2048000  ( 0.2%) 
+edges                  576/256000       2304/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           249/65536         498/131072   ( 0.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      138596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         598/16777216 ( 0.0%) 
+entdata               [variable]        2771/393216   ( 0.7%) 
+LDR ambient table      103/65536         412/262144   ( 0.2%) 
+HDR ambient table      103/65536         412/262144   ( 0.2%) 
+LDR leaf ambient       434/65536       12152/1835008  ( 0.7%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3514     ( 0.0%) 
+pakfile               [variable]      149537/0        ( 0.0%) 
+physics               [variable]       13092/4194304  ( 0.3%) 
+physics terrain       [variable]         542/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 386
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 41
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-456.00 -40.00 16.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14164 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 66 texinfos to 30
+Reduced 14 texdatas to 12 (399 bytes to 350)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+LoadPortals: couldn't read c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 44
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36524 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 30
+Reduced 14 texdatas to 12 (399 bytes to 350)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+ 254 portalclusters
+ 949 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 172 visible clusters (0.00%)
+Total clusters visible: 63750
+Average clusters visible: 250
+Building PAS...
+Average clusters audible: 254
+visdatasize:18292  compressed from 16256
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+564 faces
+237110 square feet [34143928.00 square inches]
+2 Displacements
+1445 Square Feet [208115.81 Square Inches]
+564 patches before subdivision
+5332 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 312562, max 275
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(88492, 42792, 22939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31139, 5191, 1858)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 88/8192         1056/98304    ( 1.1%) 
+brushsides             596/81920        4768/655360   ( 0.7%) 
+planes                 508/65536       10160/1310720  ( 0.8%) 
+vertexes               878/65536       10536/786432   ( 1.3%) 
+nodes                  445/65536       14240/2097152  ( 0.7%) 
+texinfos                30/12288        2160/884736   ( 0.2%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        3808/0            3808/0        ( 0.0%) 
+faces                  564/65536       31584/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              377/65536       21112/3670016  ( 0.6%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         564/0            2256/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces              729/65536        1458/131072   ( 1.1%) 
+leafbrushes            195/65536         390/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4170/512000      16680/2048000  ( 0.8%) 
+edges                 2233/256000       8932/1024000  ( 0.9%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             65/32768         650/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           939/65536        1878/131072   ( 1.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      285488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18292/16777216 ( 0.1%) 
+entdata               [variable]        3594/393216   ( 0.9%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient      1827/65536       51156/1835008  ( 2.8%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]      149537/0        ( 0.0%) 
+physics               [variable]       36524/4194304  ( 0.9%) 
+physics terrain       [variable]         542/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 1466
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 44
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36524 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 30
+Reduced 14 texdatas to 12 (399 bytes to 350)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+ 254 portalclusters
+ 949 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 172 visible clusters (0.00%)
+Total clusters visible: 63750
+Average clusters visible: 250
+Building PAS...
+Average clusters audible: 254
+visdatasize:18292  compressed from 16256
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+564 faces
+237110 square feet [34143928.00 square inches]
+2 Displacements
+1445 Square Feet [208115.81 Square Inches]
+564 patches before subdivision
+5332 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 312562, max 275
+transfer lists:   2.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(88492, 42792, 22939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31139, 5191, 1858)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 88/8192         1056/98304    ( 1.1%) 
+brushsides             596/81920        4768/655360   ( 0.7%) 
+planes                 508/65536       10160/1310720  ( 0.8%) 
+vertexes               878/65536       10536/786432   ( 1.3%) 
+nodes                  445/65536       14240/2097152  ( 0.7%) 
+texinfos                30/12288        2160/884736   ( 0.2%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        3808/0            3808/0        ( 0.0%) 
+faces                  564/65536       31584/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              377/65536       21112/3670016  ( 0.6%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         564/0            2256/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces              729/65536        1458/131072   ( 1.1%) 
+leafbrushes            195/65536         390/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4170/512000      16680/2048000  ( 0.8%) 
+edges                 2233/256000       8932/1024000  ( 0.9%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             65/32768         650/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           939/65536        1878/131072   ( 1.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      285488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18292/16777216 ( 0.1%) 
+entdata               [variable]        3594/393216   ( 0.9%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient      1827/65536       51156/1835008  ( 2.8%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]      149537/0        ( 0.0%) 
+physics               [variable]       36524/4194304  ( 0.9%) 
+physics terrain       [variable]         542/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 1466
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 47
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24252 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 74 texinfos to 32
+Reduced 16 texdatas to 14 (441 bytes to 392)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+reading c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt
+ 149 portalclusters
+ 547 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9 visible clusters (0.00%)
+Total clusters visible: 22004
+Average clusters visible: 147
+Building PAS...
+Average clusters audible: 149
+visdatasize:6858  compressed from 7152
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+359 faces
+326258 square feet [46981176.00 square inches]
+4 Displacements
+1968 Square Feet [283431.53 Square Inches]
+359 patches before subdivision
+4871 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 192483, max 183
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43086, 33950, 30889)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8108, 3660, 2494)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             404/81920        3232/655360   ( 0.5%) 
+planes                 458/65536        9160/1310720  ( 0.7%) 
+vertexes               665/65536        7980/786432   ( 1.0%) 
+nodes                  299/65536        9568/2097152  ( 0.5%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                 14/4096          448/131072   ( 0.3%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts             324/0            6480/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        5440/0            5440/0        ( 0.0%) 
+faces                  359/65536       20104/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              179/65536       10024/3670016  ( 0.3%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         359/0            1436/0        ( 0.0%) 
+leaves                 305/65536        9760/2097152  ( 0.5%) 
+leaffaces              471/65536         942/131072   ( 0.7%) 
+leafbrushes            157/65536         314/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2512/512000      10048/2048000  ( 0.5%) 
+edges                 1401/256000       5604/1024000  ( 0.5%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             58/32768         580/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           786/65536        1572/131072   ( 1.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      286812/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6858/16777216 ( 0.0%) 
+entdata               [variable]        3747/393216   ( 1.0%) 
+LDR ambient table      305/65536        1220/262144   ( 0.5%) 
+HDR ambient table      305/65536        1220/262144   ( 0.5%) 
+LDR leaf ambient      1629/65536       45612/1835008  ( 2.5%) 
+HDR leaf ambient       305/65536        8540/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4108     ( 0.0%) 
+pakfile               [variable]      149537/0        ( 0.0%) 
+physics               [variable]       24252/4194304  ( 0.6%) 
+physics terrain       [variable]        1152/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 1010
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\maciej\desktop\staszic-strike\de_fourteenth.vmf
+Map revision 49
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27884 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 76 texinfos to 34
+Reduced 16 texdatas to 14 (441 bytes to 392)
+Writing c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\maciej\desktop\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
