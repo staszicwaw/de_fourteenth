@@ -1,0 +1,22 @@
+//by Mamorex -> http://steamcommunity.com/profiles/76561198022771554
+
+"LightmappedReflective"
+
+{ 
+
+"$basetexture" "de_fourteenth/mirror" 
+"$normalmap" "de_fourteenth/mirror_n" 
+"$translucent" "1"
+"$refracttexture" "_rt_WaterRefraction" 
+"$refractamount" "1" 
+"$refracttint" "[0 0 0]" 
+"$reflecttexture" "_rt_WaterReflection" 
+"$reflectance" "1"
+"$reflectamount" "1" 
+"$reflecttint" "[1 1 1]" 
+"$fresnelpower" "1" 
+"$minreflectivity" "1" 
+"$maxreflectivity" "1" 
+"$surfaceprop" "glass" 
+
+}
