@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9018"
-	"mapversion" "97"
+	"mapversion" "98"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "97"
+	"mapversion" "98"
 	"classname" "worldspawn"
 	"chaptertitle" "Cock"
 	"detailmaterial" "detail/detailsprites"
@@ -12354,7 +12354,7 @@ entity
 	"returndelay" "-1"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"spawnflags" "8192"
+	"spawnflags" "532480"
 	"spawnpos" "0"
 	"speed" "100"
 	"origin" "-1212 564 196"
