@@ -4506,3 +4506,41 @@ Reduced 33 texdatas to 30 (901 bytes to 831)
 Writing d:\staszic-strike\de_fourteenth.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
 0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\staszic-strike\de_fourteenth.vmf
+Map revision 187
+Patching WVT material: maps/de_fourteenth/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (286791 bytes)
+Error! To use model "models/props/hr_massive/rural_door_1/rural_door_1.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/hr_massive/rural_door_1/rural_door_1.mdl"!
+Error! prop_static using model "models/props/cs_office/trash_can.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_office/trash_can.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 128 texinfos to 81
+Reduced 33 texdatas to 30 (901 bytes to 831)
+Writing d:\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
