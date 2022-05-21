@@ -5932,3 +5932,40 @@ Reduced 30 texdatas to 29 (756 bytes to 735)
 Writing d:\staszic-strike\de_fourteenth.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
 1 second elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\files\git\staszic-strike\de_fourteenth.vmf
+Map revision 265
+Patching WVT material: maps/de_fourteenth/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\files\git\staszic-strike\de_fourteenth.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (420055 bytes)
+Error! prop_static using model "models/props_interiors/furniture_chair03a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_chair03a.mdl"!
+Error! prop_static using model "models/props/cs_office/trash_can.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_office/trash_can.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 125 texinfos to 81
+Reduced 30 texdatas to 29 (756 bytes to 735)
+Writing d:\files\git\staszic-strike\de_fourteenth.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\files\git\staszic-strike\de_fourteenth.bsp', but we don't own that location. Allowing...
+1 second elapsed
